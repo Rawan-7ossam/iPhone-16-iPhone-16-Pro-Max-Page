@@ -88,7 +88,7 @@ export default function MainSection() {
   const opacity3 =1
 
   return (
-    <div className=" min-h-screen pt-[8vh]  bg-black">
+    <div className=" min-h-screen pt-[11vh]  bg-black">
       <Heading />
       {isLg ? (
         <div className=" lg:h-[265vh] mx-1 lg:mx-0">
