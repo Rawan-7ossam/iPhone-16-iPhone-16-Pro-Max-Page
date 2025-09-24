@@ -37,7 +37,7 @@ export default function Navbar() {
     dropdownBtn ? "bg-[#161617]" : "bg-black/60 backdrop-blur-md"
   } border-b border-b-[#4b4b4b] w-full fixed top-0 right-0 left-0 z-50 overflow-hidden`}
     >
-      <div className="navbar shadow-sm justify-between py-0 w-full lg:w-[60%] m-auto relative">
+      <div className="navbar shadow-sm justify-between py-0 w-full lg:w-[60%] m-auto relative h-[8vh]">
         {/* اللوجو */}
         <div>
           <h1 className="text-xl text-white font-bold border-0 shadow-none">
