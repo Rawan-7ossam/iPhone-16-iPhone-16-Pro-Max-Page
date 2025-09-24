@@ -1,12 +1,29 @@
-# React + Vite
+# Hero Section with Scroll Animation  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **hero section** built with **React** and **Framer Motion**.  
+This section features smooth **scroll-based animations**, **image transitions**, and a dynamic **text reveal effect** for a clean landing page experience.  
 
-Currently, two official plugins are available:
+## ✨ Features  
+- 📱 **Responsive images** (xsmall → xlarge) based on screen width  
+- 🎞️ **Scroll-driven animations** using Framer Motion’s `useScroll` and `useTransform`  
+- 🖼️ **Layered image transitions** with clip-path effects  
+- 📝 **Animated text reveal** for descriptions  
+- 🎨 Styled with **TailwindCSS**  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack  
+- **React**  
+- **Framer Motion**  
+- **TailwindCSS**  
 
-## Expanding the ESLint configuration
+## 📂 Project Structure  
+src/
+├── components/
+│ ├── MainSection/ # Hero section with animations
+│ └── Heading/ # Reusable heading component
+├── assets/images/ # Responsive images
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 How It Works  
+- The hero section tracks scroll progress using `useScroll`.  
+- Image transitions and transformations are mapped with `useTransform`.  
+- Different image sizes are dynamically loaded depending on screen width.  
+- Text animates smoothly into view when reaching the right scroll position.
