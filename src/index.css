@@ -31,3 +31,10 @@ body{
   font-style: normal;
   font-display: swap;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: black; /* خلي الخلفية كلها سوداء */
+  height: 100%;
+}
