@@ -5,7 +5,7 @@ import MainSection from './Components/MainSection/MainSection'
 
 export default function App() {
   return (
-    <div className='bg-black'>
+    <div>
       <Navbar/>
       <MainSection/>
       
