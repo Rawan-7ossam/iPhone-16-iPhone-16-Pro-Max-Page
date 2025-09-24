@@ -126,7 +126,7 @@ export default function MainSection() {
       )}
 
       <motion.div
-        className=" text-center px-5 w-[88%] lg:w-[52%] mx-auto bg-black  pb-20"
+        className=" text-center px-5 w-[88%] lg:w-[52%] mx-auto bg-black  pb-10"
         style={{ y: textY, opacity: textOpacity }}
         transition={{ duration: 1.2 ,ease:"easeInOut" }}
       >
