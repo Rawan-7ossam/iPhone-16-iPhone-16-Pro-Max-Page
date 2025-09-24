@@ -88,7 +88,7 @@ export default function MainSection() {
   const opacity3 =1
 
   return (
-    <div className=" pt-[8vh]  bg-black">
+    <div className=" min-h-screen pt-[8vh]  bg-black">
       <Heading />
       {isLg ? (
         <div className=" lg:h-[265vh] mx-1 lg:mx-0">
@@ -126,7 +126,7 @@ export default function MainSection() {
       )}
 
       <motion.div
-        className=" text-center px-5 w-[88%] lg:w-[52%] mx-auto bg-black pb-3"
+        className=" text-center px-5 w-[88%] lg:w-[52%] mx-auto bg-black  pb-20"
         style={{ y: textY, opacity: textOpacity }}
         transition={{ duration: 1.2 ,ease:"easeInOut" }}
       >
