@@ -126,11 +126,11 @@ export default function MainSection() {
       )}
 
       <motion.div
-        className=" text-center px-5 w-[88%] lg:w-[52%] mx-auto bg-black"
+        className=" text-center px-5 w-[88%] lg:w-[52%] mx-auto bg-black pb-3"
         style={{ y: textY, opacity: textOpacity }}
         transition={{ duration: 1.2 ,ease:"easeInOut" }}
       >
-        <p className=" mt-5 lg:mt-0 text-[#86868b] text-[21px]  font-semibold mx-auto pb-9">
+        <p className=" mt-5 lg:mt-0 text-[#86868b] text-[21px]  font-semibold mx-auto">
           Our latest generation of Photographic Styles gives you greater
           creative flexibility than ever before, so you can{" "}
           <span className="text-white">make every photo even more you</span> .
