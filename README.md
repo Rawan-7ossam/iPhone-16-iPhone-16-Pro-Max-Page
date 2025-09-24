@@ -1,12 +1,29 @@
-📸 MainSection Component
+# Hero Section with Scroll Animation  
 
-This component is a responsive hero section built with React + Framer Motion.
-It displays a sequence of photographic-style images that smoothly transition and animate as the user scrolls.
+A modern and responsive **hero section** built with **React** and **Framer Motion**.  
+This section features smooth **scroll-based animations**, **image transitions**, and a dynamic **text reveal effect** for a clean landing page experience.  
 
-🖼️ Images change based on screen size (XL, LG, MD, SM, XSM).
+## ✨ Features  
+- 📱 **Responsive images** (xsmall → xlarge) based on screen width  
+- 🎞️ **Scroll-driven animations** using Framer Motion’s `useScroll` and `useTransform`  
+- 🖼️ **Layered image transitions** with clip-path effects  
+- 📝 **Animated text reveal** for descriptions  
+- 🎨 Styled with **TailwindCSS**  
 
-🎞️ Smooth clip-path animations reveal images one by one.
+## 🚀 Tech Stack  
+- **React**  
+- **Framer Motion**  
+- **TailwindCSS**  
 
-🔍 Last image shrinks and translates upward for a dynamic effect.
+## 📂 Project Structure  
+src/
+├── components/
+│ ├── MainSection/ # Hero section with animations
+│ └── Heading/ # Reusable heading component
+├── assets/images/ # Responsive images
 
-✨ A descriptive text fades in and slides up with scroll for a clean finish.
+## 🔧 How It Works  
+- The hero section tracks scroll progress using `useScroll`.  
+- Image transitions and transformations are mapped with `useTransform`.  
+- Different image sizes are dynamically loaded depending on screen width.  
+- Text animates smoothly into view when reaching the right scroll position.
